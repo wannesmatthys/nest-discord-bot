@@ -4,7 +4,6 @@ import { Intents } from 'discord.js';
 import { NecordModule } from 'necord';
 import { DiscordService } from './discord.service';
 
-console.log(process.env.DISCORD_TOKEN);
 @Module({
   imports: [
     ConfigModule.forRoot(),
